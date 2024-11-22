@@ -2,6 +2,8 @@ import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 import path from 'path';
 
+console.log("Alias resolves to:", path.resolve(__dirname, './src'));
+
 export default defineConfig({
   plugins: [react()],
   resolve: {
@@ -12,11 +14,10 @@ export default defineConfig({
   build: {
     rollupOptions: {
       output: {
-        entryFileNames: (chunkInfo) => {
-          console.log(chunkInfo);
-          return '[name].js';
-        },
+        entryFileNames: '[name].js',
       },
     },
   },
+  logLevel: 'debug', // Add this line for detailed logs
+  
 });
