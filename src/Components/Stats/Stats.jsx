@@ -1,13 +1,13 @@
 import React from "react";
-import teamIcon from "../../Assets/image/team-icon.png"; // Replace with your actual icons
-import worksIcon from "../../Assets/image/works-icon.png";
-import awardsIcon from "../../Assets/image/awards-icon.png";
-import ratingsIcon from "../../Assets/image/ratings-icon.png";
-import sustainableIcon from "../../Assets/image/sustainable-icon.png";
-import renewableIcon from "../../Assets/image/renewable-icon.png";
-import freshEnvIcon from "../../Assets/image/fresh-env-icon.png";
-import arrowImage from "../../Assets/image/arrow1.png"; // Replace with your arrow image path
-import arrowImage2 from "../../Assets/image/arrow2.png";
+import teamIcon from "../../assets/image/team-icon.png"; // Replace with your actual icons
+import worksIcon from "../../assets/image/works-icon.png";
+import awardsIcon from "../../assets/image/awards-icon.png";
+import ratingsIcon from "../../assets/image/ratings-icon.png";
+import sustainableIcon from "../../assets/image/sustainable-icon.png";
+import renewableIcon from "../../assets/image/renewable-icon.png";
+import freshEnvIcon from "../../assets/image/fresh-env-icon.png";
+import arrowImage from "../../assets/image/arrow1.png"; // Replace with your arrow image path
+import arrowImage2 from "../../assets/image/arrow2.png";
 const StatsAndProcess = () => {
   return (
     <section>
