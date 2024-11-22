@@ -1,5 +1,5 @@
-// import Hero from "../../Components/Hero/Hero.jsx";
-import Hero from "@/Components/Hero/Hero";
+import Hero from "@/Components/Hero/Hero.jsx";
+
 
 
 
