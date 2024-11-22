@@ -1,7 +1,7 @@
 import { FaSearch, FaBars } from "react-icons/fa";
 import logo from "../../assets/image/Green_Clean logo.png";
 import logoTwo from "../../assets/image/Green_Cleanside.png";
-import Top from "./top";
+import Top from "./Top.jsx";
 import { useState } from "react";  // Use state to manage the mobile menu visibility
 
 function Navigation() {
